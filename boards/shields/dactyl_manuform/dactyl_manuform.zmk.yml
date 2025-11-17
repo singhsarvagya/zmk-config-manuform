@@ -1,6 +1,6 @@
 file_format: "1"
 id: dactyl_manuform
-name: Dactyl Manuform 4x5
+name: Dactyl Manuform 6x6
 type: shield
 url: https://github.com/abstracthat/dactyl-manuform
 requires: [pro_micro]
