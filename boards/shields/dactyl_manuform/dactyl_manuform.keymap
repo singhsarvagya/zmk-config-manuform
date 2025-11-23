@@ -20,20 +20,20 @@
                 &kp LSHIFT  &kp A     &kp S      &kp D      &kp F       &kp G                               &kp H       &kp J      &kp K      &kp L      &kp SEMI       &kp SQT
                 &kp LCTRL   &kp Z     &kp X      &kp C      &kp V       &kp B                               &kp N       &kp M      &kp COMMA  &kp DOT    &kp FSLH       &kp BSLH
                                       &kp GRAVE  &kp DOT                                                                           &kp LBKT   &kp RBKT
-                                                            &kp LCMD    &kp UP     &kp RIGHT      &kp LEFT  &kp DOWN    &kp RET
-                                                                        &kp LALT   &kp BSPC       &mo LOWER &kp SPACE
+                                                            &kp LSHIFT  &kp LALT   &kp LCMD        &kp RCMD  &kp RALT    &kp RET
+                                                                        &kp BSPC   &kp LCTRL       &mo LOWER &kp SPACE
             >;
         };
 
         lower_layer {
             bindings = <
-                &none     &none    &none     &none     &none      &none                               &none       &none      &none      &none      &none       &none
-                &none     &none    &kp UP    &none     &none      &none                               &none       &none      &none      &none      &none       &none
-                &none     &kp LEFT &kp DOWN  &kp RIGHT &none      &none                               &none       &none      &none      &none      &none       &none
-                &none     &none    &none     &none     &none      &none                               &none       &none      &none      &none      &none       &none
+                &kp ESC     &none    &none     &none     &none      &none                               &none       &none      &none      &none      &none       &none
+                &kp TAB     &none    &kp UP    &none     &none      &none                               &none       &none      &none      &none      &none       &none
+                &kp LSHIFT  &kp LEFT &kp DOWN  &kp RIGHT &none      &none                               &none       &none      &none      &none      &none       &none
+                &kp LCTRL   &none    &none     &none     &none      &none                               &none       &none      &none      &none      &none       &none
                                    &none     &none                                                                         &none   &none
-                                                            &none     &none      &none       &none      &none       &none
-                                                                       &none      &none       &none      &none
+                                                            &kp LSHIFT  &kp LALT   &kp LCMD        &kp RCMD  &kp RALT    &kp RET
+                                                                        &kp BSPC   &kp LCTRL       &none     &kp SPACE
             >;
         };
 
@@ -44,8 +44,8 @@
                 &none     &none    &none     &none     &none      &none                               &none       &none      &none      &none      &none       &none
                 &none     &none    &none     &none     &none      &none                               &none       &none      &none      &none      &none       &none
                                      &none     &none                                                                               &none   &none
-                                                            &none     &none      &none       &none      &none       &none
-                                                                       &none      &none       &none      &none
+                                                            &kp LSHIFT  &kp LALT   &kp LCMD        &kp RCMD  &kp RALT    &kp RET
+                                                                        &kp BSPC   &kp LCTRL       &none     &kp SPACE
             >;
         };
 
@@ -56,8 +56,8 @@
                 &none     &none    &none     &none     &none      &none                               &none       &none      &none      &none      &none       &none
                 &none     &none    &none     &none     &none      &none                               &none       &none      &none      &none      &none       &none
                                      &none     &none                                                                               &none   &none
-                                                            &none     &none      &none       &none      &none       &none
-                                                                      &none      &none       &none      &none
+                                                            &kp LSHIFT  &kp LALT   &kp LCMD        &kp RCMD  &kp RALT    &kp RET
+                                                                        &kp BSPC   &kp LCTRL       &none     &kp SPACE
             >;
         };
     };
