@@ -11,13 +11,6 @@
 
 
 / {
-    behaviors {
-        mac_screen_lock {
-            compatible = "zmk,macro";
-            bindings = <&kp LCMD &kp LCTRL &kp Q>; // Cmd+Ctrl+Q
-        };
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
@@ -35,8 +28,8 @@
 
         lower_layer {
             bindings = <
-                &kp ESC     &mac_screen_lock    &none     &none     &none      &none                               &none       &none      &none      &none      &none       &none
-                &kp TAB     &none    &kp UP    &none     &none      &none                               &none       &none      &none      &none      &none       &none
+                &kp ESC     &none    &none     &none     &none      &none                               &none       &none      &none      &none      &none       &none
+                &kp TAB     &kp LCMD(LCTRL(Q))    &kp UP    &none     &none      &none                               &none       &none      &none      &none      &none       &none
                 &kp LSHIFT  &kp LEFT &kp DOWN  &kp RIGHT &none      &none                               &none       &none      &none      &none      &none       &none
                 &kp LCTRL   &none    &none     &none     &none      &none                               &none       &none      &none      &none      &none       &none
                                    &none     &none                                                                         &none   &none
