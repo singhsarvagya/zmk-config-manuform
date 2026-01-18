@@ -9,6 +9,7 @@
 #define RAISE 2
 #define ADJUST 3
 
+
 / {
     behaviors {
         mac_screen_lock {
@@ -16,10 +17,7 @@
             bindings = <&kp LCMD &kp LCTRL &kp Q>; // Cmd+Ctrl+Q
         };
     };
-};
 
-
-/ {
     keymap {
         compatible = "zmk,keymap";
 
