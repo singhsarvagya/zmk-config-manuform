@@ -29,7 +29,7 @@
         lower_layer {
             bindings = <
                 &kp ESC     &none    &none     &none     &none      &none                               &none       &none      &none      &none      &none       &none
-                &kp TAB     &kp LCMD(LCTRL(Q))    &kp UP    &none     &none      &none                               &none       &none      &none      &none      &none       &none
+                &kp TAB     &kp LG(LC(Q))    &kp UP    &none     &none      &none                               &none       &none      &none      &none      &none       &none
                 &kp LSHIFT  &kp LEFT &kp DOWN  &kp RIGHT &none      &none                               &none       &none      &none      &none      &none       &none
                 &kp LCTRL   &none    &none     &none     &none      &none                               &none       &none      &none      &none      &none       &none
                                    &none     &none                                                                         &none   &none
